@@ -50,13 +50,24 @@ pre{white-space:pre-wrap;margin:0;max-height:470px;overflow:auto;color:#ddd2bd;f
 footer{text-align:center;border-top:1px solid var(--line);padding:32px;color:#7e7363;font-size:.88rem}
 @media(max-width:800px){.grid{grid-template-columns:1fr}.family{grid-template-columns:repeat(2,1fr)}.links{display:none}}
 @media(max-width:480px){.family{grid-template-columns:1fr}}
+
+.notice{max-width:1100px;margin:12px auto;padding:12px 18px;border:1px solid rgba(212,175,55,.35);border-radius:12px;background:rgba(20,14,10,.78);color:#d9d0c5;font-size:.9rem;line-height:1.5;text-align:center}
+.section-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin-top:28px}
+.role-card,.feature-card,.code-card{padding:24px;border:1px solid rgba(212,175,55,.22);border-radius:16px;background:linear-gradient(145deg,rgba(38,25,17,.9),rgba(18,13,10,.9))}
+.role-card h3,.feature-card h3{margin-top:0}.role-card ul{padding-left:20px;line-height:1.6}
+.tag{display:inline-block;padding:5px 10px;border-radius:999px;border:1px solid rgba(212,175,55,.35);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;margin-bottom:10px}
+.big-quote{font-size:clamp(1.4rem,3vw,2.2rem);font-style:italic;line-height:1.25}
+.don-portrait{min-height:320px;border-radius:20px;border:1px dashed rgba(212,175,55,.35);display:flex;align-items:center;justify-content:center;text-align:center;padding:30px;background:radial-gradient(circle,rgba(112,73,29,.18),rgba(0,0,0,.28));margin-top:24px}
+.don-portrait span{max-width:520px;color:#b9aea3}.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
+.cta-btn{display:inline-block;padding:12px 18px;border-radius:10px;text-decoration:none;border:1px solid rgba(212,175,55,.45);background:#17110d;color:#f0dfad;font-weight:700}
 </style>
 </head>
 <body>
+<div class="notice"><strong>Independent Community:</strong> Jabroni Family is an independent community and fan-created ecosystem built around Jabroni meme culture. We are not affiliated with or operated by the $JABRONI development team.</div>
 <nav><div class="wrap nav">
 <a class="logo" href="#top">DON JABRONI</a>
 <div class="links"><a href="#join">Join</a><a href="#apply">Apply</a><a href="#villain">Villains</a><a href="#family">Family</a><a href="#lore">Lore</a></div>
-</div></nav>
+</div><a href="#don">Meet the Don</a><a href="#hierarchy">Family Hierarchy</a><a href="#casino">Don's Casino</a><a href="#business">Family Business</a></nav>
 
 <header class="hero" id="top"><div class="wrap">
 <div class="kicker">The fictional Cosa Nostra of PulseChain Memes</div>
@@ -149,7 +160,12 @@ Keep everything clearly fictional and satirical.</pre>
 </div>
 </div>
 <div class="warning"><strong>Your application should include:</strong> 1) Your Jabroni image, 2) Your X name/handle, 3) The family role you want, and 4) Whether you're asking Don Jabroni to choose your role or making a tribute for the position you desire.</div>
-</div></section>
+</div>
+<div class="feature-card" style="margin-top:20px"><h3>🥃 VOLUNTARY TRIBUTE</h3>
+<p>Want to make a tribute for a desired family position? All tribute funds collected are intended to be added to the liquidity pool.</p>
+<p><strong>Tribute wallet:</strong><br><code>0x11dc55d0e2b4f8c5c3511b3313d7a277cf4f41ea</code></p>
+<p><small>Tribute is voluntary and does not guarantee a family position. Always verify the wallet address before sending.</small></p></div>
+</section>
 
 <section id="family"><div class="wrap">
 <div class="heading"><h2>The Family</h2><p>The cast grows as the community creates characters and Don Jabroni calls in favors.</p></div>
@@ -192,5 +208,45 @@ function copyText(id,status){
 }
 function show(id){const e=document.getElementById(id);e.textContent='Copied!';setTimeout(()=>e.textContent='',1800)}
 </script>
+
+<section id="don" class="section"><div class="container">
+<span class="tag">The Godfather</span><h2>MEET DON JABRONI</h2>
+<p class="big-quote">“Everybody comes to Don Jabroni for a favor.”</p>
+<div class="don-portrait"><span><strong>DON JABRONI</strong><br><br>Place the clean Don Jabroni desk portrait here — just the Don behind the desk, with the original meme text and other characters removed.</span></div>
+<div class="cta-row"><a class="cta-btn" href="https://x.com/GrandpaPulse" target="_blank" rel="noopener">ASK THE DON</a><a class="cta-btn" href="#apply">APPLY TO THE FAMILY</a></div>
+</div></section>
+
+<section id="hierarchy" class="section"><div class="container">
+<span class="tag">Family Business</span><h2>THE FAMILY HIERARCHY</h2>
+<p>Every Jabroni has a job. Some are just better at pretending they do.</p>
+<div class="section-grid">
+<div class="role-card"><h3>🕴️ CAPOS</h3><ul><li>Recruit new Jabronis.</li><li>Represent the family in X Spaces.</li><li>Help promote family memes and projects.</li><li>Keep their crew active and connected.</li><li>Bring important business to Don Jabroni.</li><li>Report suspicious levels of Jabroni activity to the Don.</li></ul><p><em>“A Capo gets things done. Or at least makes it look like he does.”</em></p></div>
+<div class="role-card"><h3>🛡️ FAMILY SOLDIERS</h3><ul><li>Create and share Jabroni memes.</li><li>Support fellow family members.</li><li>Participate in X Spaces and community events.</li><li>Help spread the family lore.</li><li>Recruit Associates.</li><li>Carry out legitimate meme missions.</li></ul><p><em>“Family Soldiers do the work. Capos take the credit.”</em></p></div>
+<div class="role-card"><h3>🤝 ASSOCIATES</h3><ul><li>Create their own Jabroni.</li><li>Participate in the community.</li><li>Share memes and join X Spaces.</li><li>Introduce new people to the family.</li><li>Support the Jabroni community.</li><li>Work toward a deeper family role.</li></ul><p><em>“You aren't family yet. But everybody has to start somewhere.”</em></p></div>
+</div></div></section>
+
+<section id="casino" class="section"><div class="container">
+<span class="tag">For Entertainment</span><h2>🎰 THE DON'S CASINO</h2>
+<div class="feature-card"><h3>SPIN THE JABRONI SLOTS</h3><p>“The Don doesn't guarantee anything. He just knows a guy with a slot machine.”</p>
+<div class="cta-row"><a class="cta-btn" href="https://jabroni.lol/slots" target="_blank" rel="noopener">🎰 SPIN FOR $JABRONI</a></div>
+<p><small>Visit the slots page for the current rules, daily-spin details, points system, and eligibility information.</small></p></div>
+</div></section>
+
+<section id="code" class="section"><div class="container">
+<span class="tag">Family Rules</span><h2>📜 THE JABRONI CODE</h2><div class="code-card">
+<p><strong>Rule #1:</strong> Never admit you bought the top.</p><p><strong>Rule #2:</strong> If you bought the top, call it “long-term accumulation.”</p>
+<p><strong>Rule #3:</strong> Never sell the bottom.</p><p><strong>Rule #4:</strong> If you sold the bottom, call it “tax-loss harvesting.”</p>
+<p><strong>Rule #5:</strong> A good meme can solve almost any problem.</p><p><strong>Rule #6:</strong> Everybody comes to Don Jabroni for a favor.</p>
+<p><strong>Rule #7:</strong> Family business stays family business.</p><p><strong>Rule #8:</strong> When in doubt… <strong>MAKE ANOTHER JABRONI.</strong></p>
+</div></div></section>
+
+<section id="business" class="section"><div class="container">
+<span class="tag">The Saga Continues</span><h2>🔒 FAMILY BUSINESS</h2><div class="section-grid">
+<div class="feature-card"><h3>EPISODE 01</h3><p><strong>THE DON ARRIVES</strong><br>Don Jabroni establishes control of the PulseChain meme family.</p></div>
+<div class="feature-card"><h3>EPISODE 02</h3><p><strong>THE RECRUITMENT</strong><br>New Jabronis begin arriving at the Don's office.</p></div>
+<div class="feature-card"><h3>EPISODE 03</h3><p><strong>THE PETE PROBLEM</strong><br>A loose cannon enters the story. The Don has business to settle — in meme form.</p></div>
+<div class="feature-card"><h3>COMING SOON</h3><p><strong>THE BAPTISM OF BABY $JABRONI</strong><br>The family gathers. Everybody has a role. Somebody inevitably causes a problem.</p></div>
+</div></div></section>
+
 </body>
 </html>
