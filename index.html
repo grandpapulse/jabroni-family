@@ -61,6 +61,22 @@ footer{text-align:center;border-top:1px solid var(--line);padding:32px;color:#7e
 .don-portrait span{max-width:520px;color:#b9aea3}.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
 .cta-btn{display:inline-block;padding:12px 18px;border-radius:10px;text-decoration:none;border:1px solid rgba(212,175,55,.45);background:#17110d;color:#f0dfad;font-weight:700}
 </style>
+
+<style id="v5-layout-fixes">
+.section{text-align:center}
+.section p,.section h1,.section h2,.section h3,.section h4{text-align:center}
+.section .container{margin-left:auto;margin-right:auto}
+.cta-row{justify-content:center}
+.don-portrait{padding:0;overflow:hidden}
+.don-portrait-img{display:block;width:100%;max-width:900px;height:auto;margin:0 auto;border-radius:18px}
+.feature-img{display:block;width:100%;max-width:1050px;height:auto;margin:20px auto 30px;border-radius:18px;box-shadow:0 14px 40px rgba(0,0,0,.28)}
+.make-jabroni-image,.family-application-image{text-align:center;width:100%;margin:0 auto}
+.section ul{display:inline-block;text-align:left;margin-left:auto;margin-right:auto}
+.role-card ul{text-align:left}
+nav,header nav,.nav,.navbar{display:flex;justify-content:space-between!important;align-items:center;gap:18px}
+nav a,header nav a,.nav a,.navbar a{margin:0!important;white-space:nowrap}
+@media(max-width:850px){nav,header nav,.nav,.navbar{flex-wrap:wrap;justify-content:center!important;gap:10px 18px}}
+</style>
 </head>
 <body>
 <div class="notice"><strong>Independent Community:</strong> Jabroni Family is an independent community and fan-created ecosystem built around Jabroni meme culture. We are not affiliated with or operated by the $JABRONI development team.</div>
@@ -79,7 +95,7 @@ footer{text-align:center;border-top:1px solid var(--line);padding:32px;color:#7e
 </div></header>
 
 <section id="join"><div class="wrap">
-<div class="heading"><h2>Make Your Jabroni</h2><p>Upload your photo or avatar to ChatGPT, paste the prompt below, and bring your character into the family.</p></div>
+<div class="heading"><h2><div class="make-jabroni-image"><img src="assets/don-jabroni-office.png" alt="Don Jabroni" class="feature-img" id="make-jabroni-image"></div>Make Your Jabroni</h2><p>Upload your photo or avatar to ChatGPT, paste the prompt below, and bring your character into the family.</p></div>
 <div class="prompt"><pre id="jab">I want to become part of the Don Jabroni Family — the fictional Cosa Nostra of PulseChain memes.
 
 I will upload a photo of myself or my avatar.
@@ -159,7 +175,7 @@ Keep everything clearly fictional and satirical.</pre>
 <p>All tribute funds collected will be added to the <strong>liquidity pool</strong>.</p>
 </div>
 </div>
-<div class="warning"><strong>Your application should include:</strong> 1) Your Jabroni image, 2) Your X name/handle, 3) The family role you want, and 4) Whether you're asking Don Jabroni to choose your role or making a tribute for the position you desire.</div>
+<div class="warning"><strong><div class="family-application-image"><img src="assets/don-jabroni-family.png" alt="Don Jabroni and his family" class="feature-img" id="family-application-image"></div>Your application should include:</strong> 1) Your Jabroni image, 2) Your X name/handle, 3) The family role you want, and 4) Whether you're asking Don Jabroni to choose your role or making a tribute for the position you desire.</div>
 </div>
 <div class="feature-card" style="margin-top:20px"><h3>🥃 VOLUNTARY TRIBUTE</h3>
 <p>Want to make a tribute for a desired family position? All tribute funds collected are intended to be added to the liquidity pool.</p>
@@ -212,7 +228,7 @@ function show(id){const e=document.getElementById(id);e.textContent='Copied!';se
 <section id="don" class="section"><div class="container">
 <span class="tag">The Godfather</span><h2>MEET DON JABRONI</h2>
 <p class="big-quote">“Everybody comes to Don Jabroni for a favor.”</p>
-<div class="don-portrait"><span><strong>DON JABRONI</strong><br><br>Place the clean Don Jabroni desk portrait here — just the Don behind the desk, with the original meme text and other characters removed.</span></div>
+<div class="don-portrait"><img src="assets/don-jabroni-office.png" alt="Don Jabroni behind his desk" class="don-portrait-img"></div>
 <div class="cta-row"><a class="cta-btn" href="https://x.com/GrandpaPulse" target="_blank" rel="noopener">ASK THE DON</a><a class="cta-btn" href="#apply">APPLY TO THE FAMILY</a></div>
 </div></section>
 
